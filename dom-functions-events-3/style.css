@@ -1,0 +1,115 @@
+body {
+  background: #1d4e69;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  padding: 30px;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post {
+  width: 460px;
+  background: white;
+  padding: 28px 0 0;
+  border-radius: 3px;
+  margin-bottom: 100px;
+  box-shadow: 0px 7.96774px 17.529px rgba(0, 0, 0, 0.25);
+}
+
+.post-itself {
+  font-size: 17px;
+}
+
+.user-row {
+  display: flex;
+  padding: 0 30px;
+}
+
+.username {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.time {
+  opacity: 0.7;
+}
+
+.post-itself {
+  color: #5E4B4B;
+  padding: 0 30px;
+}
+
+.like-container {
+  margin-top: -5px;
+}
+
+.like-container, .comment-container {
+  padding: 0px 30px 10px;
+}
+
+.comment-container {
+  display: flex;
+  height: 40px;
+  background: rgba(223, 223, 239, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 30px 8px;
+
+}
+
+.comment-container form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.comment-container input {
+  background: none;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.like-container button {
+  width: 80px;
+  height: 40px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  margin-left: -5px;
+}
+
+.like-label {
+  font-weight: 500;
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.like-container button svg {
+  width: 25px;
+  height: 25px;
+}
+
+.comments {
+  padding: 17px 30px 17px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+  font-size: 14px;
+  color: #5E4B4B;
+}
+
+.comment-username {
+  font-weight: 500;
+  color: black;
+}

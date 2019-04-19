@@ -1,0 +1,11 @@
+html {
+  background: #5767a1;
+}
+
+.cursor {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
