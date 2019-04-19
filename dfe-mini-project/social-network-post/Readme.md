@@ -4,7 +4,7 @@
 
 Completed example: https://js-practice3-master.altunleyda.now.sh/
 
-Goal of this mini-project is to learn how eventListeners and function are working together to make change on DOM. 
+Goal of this mini-project is to practice using eventListeners and functions to make change on DOM. 
 
 Instructions: 
 
