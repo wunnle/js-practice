@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/wunnle/pen/ROgLwq.
+# Mini Project: Todo list
 
- 
+![alt text](https://blog.wunnle.com/u/todo.jpg "todo list")
